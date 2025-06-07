@@ -1,0 +1,94 @@
+/* تنسيقات عامة */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-bottom: none;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* تنسيقات نموذج الإدخال */
+.form-control {
+    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+}
+
+/* تنسيقات نتائج التحقق */
+.alert {
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#botImageContainer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#botDetails {
+    margin-top: 10px;
+}
+
+#botDetails p {
+    margin-bottom: 5px;
+}
+
+/* تنسيقات مؤشر التحميل */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    margin: 20px auto;
+}
+
+/* تنسيقات للشاشات الصغيرة */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 20px;
+    }
+    
+    #botImageContainer {
+        margin-bottom: 20px;
+    }
+}
+
